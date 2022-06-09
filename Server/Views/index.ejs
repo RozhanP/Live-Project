@@ -15,13 +15,11 @@
         <%- include('components/header.ejs'); %>
     </header>
     <main>
-        <h1>Hello World!</h1>
+        <%- include('content/' + page + '.ejs'); %>
     </main>
 
-    
-
     <footer>
-
+     <%- include('components/footer.ejs'); %>
     </footer>
     <script src="./jquery/dist/jquery.min.js"></script>
     <script src="./bootstrap/dist/js/bootstrap.min.js"></script>
